@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "georgian-main";
+  src: local("bpg-arial-caps-webfont"),
+    url("../fonts/arial/bpg-arial-caps-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "georgian-secondary";
+  src: local("NotoSansGeorgian-Medium"),
+    url("../fonts/noto/NotoSansGeorgian-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "latin-main";
+  src: local("Sofia_Sans_Semi_Condensed"),
+    url("../fonts/sofia/SofiaSansSemiCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "latin-secondary";
+  src: local("Ubuntu"),
+    url("../fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+:root {
+  /* COLORS */
+  --background-color-main: #102668;
+  --text-color-main: #1b3a98;
+  --text-color-secondary: #15181a;
+  --text-color-third: #717171;
+  --square-color-main : #9F0603;
+  /* SPACING */
+  --p-container: 25px;
+}
+
+/* @media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} */

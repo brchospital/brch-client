@@ -1,0 +1,389 @@
+@media (min-width: 1281px) {
+  .vacancies-section-container {
+    margin-top: 50px;
+  }
+
+  .vacancies-section-container-item {
+    width: 90%;
+    margin: 0 var(--p-container);
+    margin-bottom: 25px;
+  }
+
+  .vacancies-section-container-item-head {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-square {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-color: var(--square-color-main);
+  }
+
+  .vacancies-section-container-item-head-date-container {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-date-icon {
+    color: var(--text-color-main);
+    margin-right: 5px;
+  }
+
+  .vacancies-section-container-item-head-date {
+    color: var(--text-color-main);
+    font-family: "georgian-secondary";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vacancies-section-container-item-body {
+    padding: 10px 0 10px 30px;
+  }
+
+  .vacancies-section-container-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vacancies-section-container-item-route {
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color-third);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .vacancies-section-container {
+    margin-top: 40px
+  }
+
+  .vacancies-section-container-item {
+    width: 90%;
+    margin: 0 var(--p-container);
+    margin-bottom: 25px;
+  }
+
+  .vacancies-section-container-item-head {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-square {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-color: var(--square-color-main);
+  }
+
+  .vacancies-section-container-item-head-date-container {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-date-icon {
+    color: var(--text-color-main);
+    margin-right: 5px;
+  }
+
+  .vacancies-section-container-item-head-date {
+    color: var(--text-color-main);
+    font-family: "georgian-secondary";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vacancies-section-container-item-body {
+    padding: 10px 0 10px 30px;
+  }
+
+  .vacancies-section-container-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vacancies-section-container-item-route {
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color-third);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .vacancies-section-container {
+    margin-top: var(--p-container);
+  }
+
+  .vacancies-section-container-item {
+    width: 90%;
+    margin: 0 var(--p-container);
+    margin-bottom: 25px;
+  }
+
+  .vacancies-section-container-item-head {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-square {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-color: var(--square-color-main);
+  }
+
+  .vacancies-section-container-item-head-date-container {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-date-icon {
+    color: var(--text-color-main);
+    margin-right: 5px;
+  }
+
+  .vacancies-section-container-item-head-date {
+    color: var(--text-color-main);
+    font-family: "georgian-secondary";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vacancies-section-container-item-body {
+    padding: 10px 0 10px 30px;
+  }
+
+  .vacancies-section-container-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vacancies-section-container-item-route {
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color-third);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .vacancies-section-container {
+    margin-top: var(--p-container);
+  }
+
+  .vacancies-section-container-item {
+    width: 90%;
+    margin: 0 var(--p-container);
+    margin-bottom: 25px;
+  }
+
+  .vacancies-section-container-item-head {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-square {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-color: var(--square-color-main);
+  }
+
+  .vacancies-section-container-item-head-date-container {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-date-icon {
+    color: var(--text-color-main);
+    margin-right: 5px;
+  }
+
+  .vacancies-section-container-item-head-date {
+    color: var(--text-color-main);
+    font-family: "georgian-secondary";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vacancies-section-container-item-body {
+    padding: 10px 0 10px 30px;
+  }
+
+  .vacancies-section-container-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vacancies-section-container-item-route {
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color-third);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .vacancies-section-container {
+    margin-top: var(--p-container);
+  }
+
+  .vacancies-section-container-item {
+    width: 90%;
+    margin: 0 var(--p-container);
+    margin-bottom: 25px;
+  }
+
+  .vacancies-section-container-item-head {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-square {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-color: var(--square-color-main);
+  }
+
+  .vacancies-section-container-item-head-date-container {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-date-icon {
+    color: var(--text-color-main);
+    margin-right: 5px;
+  }
+
+  .vacancies-section-container-item-head-date {
+    color: var(--text-color-main);
+    font-family: "georgian-secondary";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vacancies-section-container-item-body {
+    padding: 10px 0 10px 30px;
+  }
+
+  .vacancies-section-container-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vacancies-section-container-item-route {
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color-third);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .vacancies-section-container {
+    margin-top: var(--p-container);
+  }
+
+  .vacancies-section-container-item {
+    width: 90%;
+    margin: 0 var(--p-container);
+    margin-bottom: 25px;
+  }
+
+  .vacancies-section-container-item-head {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-square {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-color: var(--square-color-main);
+  }
+
+  .vacancies-section-container-item-head-date-container {
+    display: flex;
+  }
+
+  .vacancies-section-container-item-head-date-icon {
+    color: var(--text-color-main);
+    margin-right: 5px;
+  }
+
+  .vacancies-section-container-item-head-date {
+    color: var(--text-color-main);
+    font-family: "georgian-secondary";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .vacancies-section-container-item-body {
+    padding: 10px 0 10px 30px;
+  }
+
+  .vacancies-section-container-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vacancies-section-container-item-route {
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color-third);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

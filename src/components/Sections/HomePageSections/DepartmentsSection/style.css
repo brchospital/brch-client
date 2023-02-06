@@ -1,0 +1,253 @@
+@media (min-width: 1281px) {
+  .departments-section {
+    margin-top: 15px;
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    justify-content: center;
+    /* padding-left: var(--p-container); */
+  }
+
+  .departments-section-departments-item {
+    margin: 10px 20px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 1255px) and (max-width: 1280px) {
+  .departments-section {
+    margin-top: 15px;
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    justify-content: center;
+    /* padding-left: var(--p-container); */
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .departments-section-departments-item {
+    margin: 10px 10px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1255px) {
+  .departments-section {
+    margin-top: 15px;
+    /* padding: var(--p-container); */
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .departments-section-departments-item {
+    padding: 10px 25px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .departments-section {
+    margin-top: 15px;
+    /* padding: var(--p-container); */
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .departments-section-departments-item {
+    padding: 10px 10px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .departments-section {
+    margin-top: 15px;
+    /* padding: var(--p-container); */
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .departments-section-departments-item {
+    padding: 10px 10px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .departments-section {
+    margin-top: 15px;
+    /* padding: var(--p-container); */
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .departments-section-departments-item {
+    padding: 10px 10px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .departments-section {
+    margin-top: 15px;
+    /* padding: var(--p-container); */
+  }
+
+  .departments-section-title {
+    font-family: "georgian-secondary";
+    padding: var(--p-container);
+  }
+
+  .departments-section-departments {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .departments-section-departments-item {
+    padding: 10px 10px 10px 0;
+  }
+
+  .departments-section-link {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}

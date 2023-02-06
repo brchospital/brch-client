@@ -1,0 +1,252 @@
+@media (min-width: 1281px) {
+  .departments-section {
+    margin-top: 15px;
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 40px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 1255px) and (max-width: 1280px) {
+  .departments-section {
+    margin-top: 15px;
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 10px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1255px) {
+  .medical-services-container {
+    margin-top: 15px;
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 10px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .medical-services-container {
+    /* CSS */
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 10px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .medical-services-container {
+    /* CSS */
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 10px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .medical-services-container {
+    /* CSS */
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 10px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .medical-services-container {
+    /* CSS */
+  }
+
+  .medical-services-container-title {
+    padding: var(--p-container);
+    font-family: "georgian-secondary";
+  }
+
+  .medical-services-container-services {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .medical-services-container-services-item {
+    padding: 0px 10px 10px 0;
+  }
+
+  .medical-services-container-services-route {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--text-color-third);
+    font-size: 16px;
+    font-family: "georgian-secondary";
+    padding-right: var(--p-container);
+  }
+}

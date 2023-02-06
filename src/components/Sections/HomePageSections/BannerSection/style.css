@@ -1,0 +1,223 @@
+@media (min-width: 1281px) {
+  .banner-container {
+    background-image: url("../../../../assets/banner_cover.png");
+    background-size: cover;
+    height: 370px;
+  }
+
+  .banner-container-info {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .banner-container-info-item-quantity {
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .banner-container-info-line {
+    width: 300px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .banner-container-info-item-title {
+    margin-top: 5px;
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .banner-container {
+    background-image: url("../../../../assets/banner_cover.png");
+    background-size: cover;
+    height: 370px;
+  }
+
+  .banner-container-info {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .banner-container-info-item-quantity {
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .banner-container-info-line {
+    width: 300px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .banner-container-info-item-title {
+    margin-top: 5px;
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .banner-container {
+    background-image: url("../../../../assets/banner_cover.png");
+    height: 370px;
+  }
+
+  .banner-container-info {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .banner-container-info-item-quantity {
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .banner-container-info-line {
+    width: 300px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .banner-container-info-item-title {
+    margin-top: 5px;
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .banner-container {
+    background-image: url("../../../../assets/banner_cover.png");
+    height: 370px;
+  }
+
+  .banner-container-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .banner-container-info-item-quantity {
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .banner-container-info-line {
+    width: 300px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .banner-container-info-item-title {
+    margin-top: 5px;
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner-container {
+    background-image: url("../../../../assets/banner_cover.png");
+    height: 370px;
+  }
+
+  .banner-container-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .banner-container-info-item-quantity {
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .banner-container-info-line {
+    width: 300px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .banner-container-info-item-title {
+    margin-top: 5px;
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner-container {
+    background-image: url("../../../../assets/banner_cover.png");
+    height: 370px;
+  }
+
+  .banner-container-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .banner-container-info-item-quantity {
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .banner-container-info-line {
+    width: 300px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .banner-container-info-item-title {
+    margin-top: 5px;
+    color: #fff;
+    font: "georgian-secondary";
+    font-size: 20px;
+  }
+}

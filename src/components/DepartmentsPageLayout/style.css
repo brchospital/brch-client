@@ -1,0 +1,56 @@
+/* @media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .departments-container {
+    padding-top: var(--p-container);
+    padding-left: var(--p-container);
+  }
+
+  .departments-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .departments-container {
+    padding-top: var(--p-container);
+    padding-left: var(--p-container);
+  }
+
+  .departments-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .departments-container {
+    padding-top: var(--p-container);
+    padding-left: var(--p-container);
+  }
+
+  .departments-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+} */
+
+.departments-container {
+  padding-top: var(--p-container);
+  /* padding-left: var(--p-container); */
+  
+}
+
+.departments-container-title {
+  font-family: "georgian-secondary";
+  color: var(--text-color-secondary);
+  padding-left: var(--p-container);
+}

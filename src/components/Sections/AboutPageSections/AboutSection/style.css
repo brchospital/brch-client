@@ -1,0 +1,123 @@
+@media (min-width: 1281px) {
+  .about-section-container {
+    padding: var(--p-container);
+  }
+
+  .about-section-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-main);
+  }
+
+  .about-section-container-info {
+    margin-top: 25px;
+    max-width: 860px;
+  }
+
+  .about-section-container-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .about-section-container {
+    padding: var(--p-container);
+  }
+
+  .about-section-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-main);
+  }
+
+  .about-section-container-info {
+    margin-top: 25px;
+    max-width: 860px;
+  }
+
+  .about-section-container-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .about-section-container {
+    padding: var(--p-container);
+  }
+
+  .about-section-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-main);
+  }
+
+  .about-section-container-info {
+    margin-top: 25px;
+    max-width: 860px;
+  }
+
+  .about-section-container-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .about-section-container {
+    padding: var(--p-container);
+  }
+
+  .about-section-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-main);
+  }
+
+  .about-section-container-info {
+    margin-top: 25px;
+    max-width: 860px;
+  }
+
+  .about-section-container-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .about-section-container {
+    padding: var(--p-container);
+  }
+
+  .about-section-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-main);
+  }
+
+  .about-section-container-info {
+    margin-top: 25px;
+  }
+
+  .about-section-container-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-section-container {
+    padding: var(--p-container);
+  }
+
+  .about-section-container-title {
+    font-family: "georgian-secondary";
+    color: var(--text-color-main);
+  }
+
+  .about-section-container-info {
+    margin-top: 25px;
+  }
+
+  .about-section-container-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}

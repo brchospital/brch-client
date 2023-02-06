@@ -1,0 +1,263 @@
+/* .posts-container {
+  padding: var(--p-container);
+}
+
+.posts-container-posts {
+  display: flex;
+  justify-content: center;
+} */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .posts-container {
+    padding: 1.563rem;
+  }
+
+  .posts-container-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .posts-container-navigation-title {
+    font-family: "georgian-secondary";
+  }
+
+  .posts-container-navigation-link {
+    text-decoration: none;
+    font-family: "georgian-secondary";
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+
+  /* ----------------------------------- */
+
+  .posts-container-posts {
+    display: flex;
+    justify-content: center;
+  }
+
+  .posts-container-posts-item {
+    padding: 10px 25px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .posts-container {
+    padding: var(--p-container);
+  }
+
+  .posts-container-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .posts-container-navigation-title {
+    font-family: "georgian-secondary";
+  }
+
+  .posts-container-navigation-link {
+    text-decoration: none;
+    font-family: "georgian-secondary";
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+
+  /* ----------------------------------- */
+
+  .posts-container-posts {
+    display: flex;
+    justify-content: center;
+  }
+
+  .posts-container-posts-item {
+    padding: 10px 25px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .posts-container {
+    padding: var(--p-container);
+  }
+
+  .posts-container-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .posts-container-navigation-title {
+    font-family: "georgian-secondary";
+  }
+
+  .posts-container-navigation-link {
+    text-decoration: none;
+    font-family: "georgian-secondary";
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+
+  /* ----------------------------------- */
+
+  .posts-container-posts {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+    padding-left: 25px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .posts-container-posts-item {
+    padding: 10px 10px 10px 0;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .posts-container {
+    /* padding: var(--p-container); */
+  }
+
+  .posts-container-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 25px;
+  }
+
+  .posts-container-navigation-title {
+    font-family: "georgian-secondary";
+  }
+
+  .posts-container-navigation-link {
+    text-decoration: none;
+    font-family: "georgian-secondary";
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+
+  /* ----------------------------------- */
+
+  .posts-container-posts {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+    padding-left: 25px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .posts-container-posts-item {
+    padding: 10px 10px 10px 0;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .posts-container {
+    /* padding: var(--p-container); */
+  }
+
+  .posts-container-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 25px;
+  }
+
+  .posts-container-navigation-title {
+    font-family: "georgian-secondary";
+  }
+
+  .posts-container-navigation-link {
+    text-decoration: none;
+    font-family: "georgian-secondary";
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+
+  /* ----------------------------------- */
+
+  .posts-container-posts {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+    padding-left: 25px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .posts-container-posts-item {
+    padding: 10px 10px 10px 0;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .posts-container {
+    /* padding: var(--p-container); */
+  }
+
+  .posts-container-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--p-container);
+    margin-bottom: 15px;
+  }
+
+  .posts-container-navigation-title {
+    font-family: "georgian-secondary";
+  }
+
+  .posts-container-navigation-link {
+    text-decoration: none;
+    font-family: "georgian-secondary";
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+
+  /* ----------------------------------- */
+
+  .posts-container-posts {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .posts-container-posts-item {
+    padding: 10px 10px 10px 0;
+  }
+}

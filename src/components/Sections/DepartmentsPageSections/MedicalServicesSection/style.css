@@ -1,0 +1,105 @@
+@media (min-width: 1281px) {
+  .medical-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .medical-services-item {
+    padding-top: 25px;
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* .medical-services {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+  }
+
+  .medical-services-item {
+    padding-top: 25px;
+    margin: 0 auto;
+  } */
+
+  .medical-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .medical-services-item {
+    padding-top: 25px;
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1024px) {
+  .medical-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .medical-services-item {
+    padding-top: 25px;
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 951px) {
+  .medical-services {
+    margin-top: 25px;
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  .medical-services-item {
+    padding: 10px 25px 10px 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .medical-services {
+    margin-top: 25px;
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  .medical-services-item {
+    padding: 10px 25px 10px 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .medical-services {
+    margin-top: 25px;
+    display: flex;
+    overflow-y: scroll;
+    padding-left: var(--p-container);
+  }
+
+  .medical-services-item {
+    padding: 10px 25px 10px 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+}

@@ -1,0 +1,351 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .about-section {
+    display: flex;
+    padding: var(--p-container);
+    justify-content: center;
+  }
+
+  .about-section-banner {
+    /* background-color: rebeccapurple; */
+    max-width: 600px;
+  }
+
+  .about-section-banner-title {
+    font-size: 1.5rem;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-button {
+    text-decoration: none;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    border: 1px solid var(--text-color-main);
+    padding: 10px;
+    display: block;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /* ----------------------- */
+
+  .about-section-points {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    width: 1500px;
+    grid-gap: 10px;
+  }
+
+  .about-section-points-item {
+    /* CSS */
+  }
+
+  .about-section-points-item-circle {
+    width: 25px;
+    height: 25px;
+    background-color: var(--background-color-main);
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .about-section-points-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .about-section {
+    display: flex;
+    padding: var(--p-container);
+  }
+
+  .about-section-banner {
+    /* background-color: rebeccapurple; */
+  }
+
+  .about-section-banner-title {
+    font-size: 1.5rem;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-button {
+    text-decoration: none;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    border: 1px solid var(--text-color-main);
+    padding: 10px;
+    display: block;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /* ----------------------- */
+
+  .about-section-points {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    width: 1500px;
+    grid-gap: 10px;
+  }
+
+  .about-section-points-item {
+    /* CSS */
+  }
+
+  .about-section-points-item-circle {
+    width: 25px;
+    height: 25px;
+    background-color: var(--background-color-main);
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .about-section-points-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .about-section {
+    padding: var(--p-container);
+  }
+
+  .about-section-banner {
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-title {
+    font-size: 1.5rem;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+
+  .about-section-banner-button {
+    text-decoration: none;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    border: 1px solid var(--text-color-main);
+    padding: 10px;
+    display: block;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /* -------------------------------------------- */
+
+  .about-section-points {
+    margin-top: 30px;
+  }
+
+  .about-section-points-item {
+    margin-top: 20px;
+  }
+
+  .about-section-points-item-circle {
+    width: 25px;
+    height: 25px;
+    background-color: var(--background-color-main);
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .about-section-points-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .about-section {
+    padding: var(--p-container);
+  }
+
+  .about-section-banner {
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-title {
+    font-size: 1.7rem;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+
+  .about-section-banner-button {
+    text-decoration: none;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    border: 1px solid var(--text-color-main);
+    padding: 10px;
+    display: block;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /* -------------------------------------------- */
+
+  .about-section-points {
+    margin-top: 30px;
+  }
+
+  .about-section-points-item {
+    margin-top: 20px;
+  }
+
+  .about-section-points-item-circle {
+    width: 25px;
+    height: 25px;
+    background-color: var(--background-color-main);
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .about-section-points-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+    font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .about-section {
+    padding: var(--p-container);
+  }
+
+  .about-section-banner {
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-title {
+    font-size: 1.05rem;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+
+  .about-section-banner-button {
+    text-decoration: none;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    border: 1px solid var(--text-color-main);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  /* -------------------------------------------- */
+
+  .about-section-points {
+    margin-top: 30px;
+  }
+
+  .about-section-points-item {
+    margin-top: 20px;
+  }
+
+  .about-section-points-item-circle {
+    width: 25px;
+    height: 25px;
+    background-color: var(--background-color-main);
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .about-section-points-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-section {
+    padding: var(--p-container);
+  }
+
+  .about-section-banner {
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-title {
+    font-size: 1.05rem;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+  }
+
+  .about-section-banner-button {
+    text-decoration: none;
+    font-family: "georgian-main";
+    color: var(--text-color-main);
+    border: 1px solid var(--text-color-main);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  /* -------------------------------------------- */
+
+  .about-section-points {
+    margin-top: 30px;
+  }
+
+  .about-section-points-item {
+    margin-top: 20px;
+  }
+
+  .about-section-points-item-circle {
+    width: 25px;
+    height: 25px;
+    background-color: var(--background-color-main);
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .about-section-points-item-text {
+    font-family: "georgian-secondary";
+    color: var(--text-color-secondary);
+  }
+}

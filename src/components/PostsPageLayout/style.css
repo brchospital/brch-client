@@ -1,0 +1,5 @@
+.posts-container-title {
+  font-family: "georgian-secondary";
+  color: var(--text-color-secondary);
+  padding-left: var(--p-container);
+}
