@@ -1,16 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import {
   AboutPage,
-  DashboardPage,
+//   DashboardPage,
   DepartmentPage,
   DepartmentsPage,
-  DoctorPage,
-  DoctorsPage,
+//   DoctorPage,
+//   DoctorsPage,
   HomePage,
   LoginPage,
   PostPage,
   PostsPage,
-  VacancyPage,
+//   VacancyPage,
   VacanciesPage,
 } from "../pages";
 import ErrorPage from "./error-page";
